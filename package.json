@@ -1,16 +1,16 @@
 {
-  "homepage": "https://letticiamoura.github.io/controle-financeiro",
+  "homepage": "https://letticiamoura.github.io/controle-financeiro/",
   "name": "controle-financeiro",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
