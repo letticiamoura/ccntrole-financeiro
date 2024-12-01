@@ -8,7 +8,7 @@ import Dashboard from "./pages/Dashboard";
 export default function App() {
 
   return (
-    <BrowserRouter basename="finances">
+    <BrowserRouter basename="controle-financeiro">
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
